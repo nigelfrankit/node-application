@@ -1,12 +1,12 @@
 const express = require('express');
 const authRoutes = require('./routes/auth-routes');
 const passportSetup = require('./config/passport-setup');
-//const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 const keys = require('./config/keys');
 const cookieSession = require('cookie-session');
 const passport  = require('passport');
 const profileRoutes = require('./routes/profile-routes');
-const sql = require('mssql');
+//const sql = require('mssql');
 /*
 const config = {
     user: 'WebApp',
